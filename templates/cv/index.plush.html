@@ -1,0 +1,205 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<%= stylesheetTag("cv.css") %>
+
+
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col col-12 col-md-5">
+
+            <div class="row cv-card">
+                <img class="profilephoto" src='<%= assetPath("images/FlorianThievent.png") %>'>
+                <h3 class="mt-4">Florian Thiévent</h3>
+                <hr class="spacer">
+                <ul class="cv-list">
+                    <li class="cv-list-item"><img class="cv-list-image"
+                                                  src='<%= assetPath("images/location.png") %>'><span
+                            class="cv-list-item-text"><a class="cv-link" href="https://bit.ly/2OymX0t" target="_blank">Höhenweg 15, 5222 Umiken</a></span>
+                    </li>
+                    <li class="cv-list-item"><img class="cv-list-image" src='<%= assetPath("images/work.png") %>'><span
+                            class="cv-list-item-text">BizDevOps Engineer, IMON, SBB AG</span></li>
+                    <li class="cv-list-item"><img class="cv-list-image"
+                                                  src='<%= assetPath("images/marriage.png") %>'><span
+                            class="cv-list-item-text">Verheiratet seit 2015</span></li>
+                    <li class="cv-list-item"><img class="cv-list-image"
+                                                  src='<%= assetPath("images/birthday.png") %>'><span
+                            class="cv-list-item-text">08.08.1986</span></li>
+                    <li class="cv-list-item"><img class="cv-list-image" src='<%= assetPath("images/phone.png") %>'><span
+                            class="cv-list-item-text">+41 79 880 16 79</span></li>
+
+                    <li class="cv-list-item">
+                        <ul class="cv-social-list">
+                            <li class="cv-social-list-item"><a class="cv-social-link"
+                                                               href="https://github.com/lichtwellenreiter"
+                                                               target="_blank"><img class="cv-list-image"
+                                                                                    src='<%= assetPath("images/github.png") %>'></a>
+                            </li>
+                            <li class="cv-social-list-item"><a class="cv-social-link"
+                                                               href="https://www.linkedin.com/in/florian-thiévent-a03421143"
+                                                               target="_blank"><img class="cv-list-image"
+                                                                                    src='<%= assetPath("images/linkedin.png") %>'></a>
+                            </li>
+                            <li class="cv-social-list-item"><a class="cv-social-link"
+                                                               href="https://twitter.com/flothievent"
+                                                               target="_blank"><img class="cv-list-image"
+                                                                                    src='<%= assetPath("images/twitter.png") %>'></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row cv-card">
+                <h3 class="mt-2">Readme</h3>
+                <hr class="spacer">
+                <ul class="cv-list">
+                    <li class="cv-list-item readme">Teilnahme an Hackathon's: HackZurich, OpenData Switzerland Energy
+                        Hackdays
+                    </li>
+                    <li class="cv-list-item readme">Elektronikprojekte mit Arduino, RaspberryPi & NVIDIA Jetson</li>
+                    <li class="cv-list-item readme">Entwicklung von Webanwendungen und Applikationen</li>
+                    <li class="cv-list-item readme">Guggenmusik Trombongos Windisch</li>
+                    <li class="cv-list-item readme">Capture the Flag's [CTF]</li>
+                </ul>
+            </div>
+
+            <div class="row cv-card">
+                <h3 class="mt-2">Deployment</h3>
+                <hr class="spacer">
+                <table class="cv-table">
+                    <tr class="cv-table-row">
+                        <td class="cv-deployment-text">Lehre als Koch</td>
+                        <td class="cv-deployment-year">2002 - 2005</td>
+                    </tr>
+
+                    <tr class="cv-table-row">
+                        <td class="cv-deployment-text">Zeitmilitär Hauptfeldweibel, Instruktor für Soldaten an Waffen
+                            und
+                            Systeme, zusätzlich Kader in Führung und Ausbildungsmethodik
+                        </td>
+                        <td class="cv-deployment-year">2006 - 2011</td>
+                    </tr>
+
+                    <tr class="cv-table-row">
+                        <td class="cv-deployment-text">Zugverkehrsleiter im Knoten Zürich<br/>Gewinner Prix SBB
+                            Kategorie
+                            Beweglich
+                        </td>
+                        <td class="cv-deployment-year">2011 - 2016</td>
+                    </tr>
+
+                    <tr class="cv-table-row">
+                        <td class="cv-deployment-text">AOM KI Systeme IT-SCI-DSI-KI</td>
+                        <td class="cv-deployment-year">2016 - 2019</td>
+                    </tr>
+
+                    <tr class="cv-table-row">
+                        <td class="cv-deployment-text">Platform Engineer / BizDevOps Engineer Infrastruktur Monitoring
+                            IMON
+                        </td>
+                        <td class="cv-deployment-year">2019 -</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="col-1"></div>
+        <div class="col col-12 col-md-6">
+            <div class="row cv-card">
+                <h3 class="mt-2">Specs</h3>
+                <hr class="spacer">
+                <div class="row">
+                    <div class="col col-3">
+                        <ul class="spec-list">
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/html.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel45.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/linux.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel40.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/java.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel30.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/sql.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel30.png") %>'></li>
+                        </ul>
+                    </div>
+                    <div class="col col-3">
+                        <ul class="spec-list">
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/css.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel45.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/apple.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel40.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/golang.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel35.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/raspi.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel35.png") %>'></li>
+                        </ul>
+                    </div>
+                    <div class="col col-3">
+                        <ul class="spec-list">
+                            <li class="cv-list-item"><img class="cv-list-image" src='<%= assetPath("images/js.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel40.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/windows.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel30.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/python.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel45.png") %>'></li>
+                            <li class="cv-list-item"><img class="cv-list-image"
+                                                          src='<%= assetPath("images/docker.png") %>'><img
+                                    class="cv-list-bommel" src='<%= assetPath("images/Bommel40.png") %>'></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row cv-card">
+                <h3 class="mt-2">Languages</h3>
+                <hr class="spacer">
+                <ul class="cv-list">
+                    <li class="cv-list-item">de_CH, de_DE <img class="cv-list-bommel"
+                                                               src='<%= assetPath("images/Bommel50.png") %>'></li>
+                    <li class="cv-list-item">en_US, en_GB <img class="cv-list-bommel"
+                                                               src='<%= assetPath("images/Bommel40.png") %>'></li>
+                    <li class="cv-list-item">fr_CH, fr_FR <img class="cv-list-bommel"
+                                                               src='<%= assetPath("images/Bommel35.png") %>'></li>
+                </ul>
+            </div>
+            <div class="row cv-card">
+                <h3 class="mt-2">Current Build</h3>
+                <hr class="spacer">
+
+                <ul class="cv-list">
+                    <li class="cv-list-item cb">
+                        BSc Informatik, FHNW<br>
+                        Data and Management [iCompetence]
+                    </li>
+                </ul>
+
+            </div>
+            <div class="row cv-card">
+                <h3 class="mt-2">Change Log</h3>
+                <hr class="spacer">
+
+                <ul class="cv-list">
+                    <li class="cv-list-item cb">Kochlehre</li>
+                    <li class="cv-list-item cb">Ausbildung untere Milzkader der Schweizer Armee Führungsausbildung der
+                        Armee (FUM)
+                    </li>
+                    <li class="cv-list-item cb">Zugverkehrsleiter</li>
+                    <li class="cv-list-item cb">Diplôme d’Etudes en langue française (DELF)</li>
+                    <li class="cv-list-item cb">English First Certificate (FCE)</li>
+                    <li class="cv-list-item cb">IBM Netcool/Omnibus, IBM Netcool/Impact</li>
+                    <li class="cv-list-item cb">Introduction to Perl by Dr Damian Conway</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>

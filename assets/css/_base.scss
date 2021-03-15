@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+
+.info{
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Oswald', 'Arial', sans-serif;
+}
+
+.info-dark {
+    border: 2px solid #0084a5;
+}
+
+.info-dark > a {
+    color: #0084a5;
+    text-decoration: none;
+}
+
+.info-dark > .info-text {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.info-dark > .info-text a:visited {
+    color: black;
+}
+
+
+.info-light {
+    border: 2px solid #00cfff;
+}
+
+.info-light > a {
+    color: #00cfff;
+    text-decoration: none;
+}
+
+.info-light > .info-text {
+    background: rgb(236, 236, 236);
+    color: black;
+}
+
+.info-light > .info-text a:visited {
+    color: black;
+}
+
+.has-text:focus-within .info-text {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.info-button {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50%;
+}
+
+
+.info-text {
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: left;
+    cursor: default;
+    opacity: 0;
+    transition: opacity .15s ease-out;
+}
+
+.info-text a {
+    text-decoration: underline;
+}
+
+.info-text a {
+    text-decoration: underline;
+}

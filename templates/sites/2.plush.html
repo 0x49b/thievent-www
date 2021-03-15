@@ -1,0 +1,41 @@
+<%= stylesheetTag("2.css") %>
+
+<nav class="navbar">
+    <ul class="navbar-nav">
+        <li class="nav-item has-dropdown">
+            <a href="#">Theme</a>
+            <ul class="dropdown">
+                <li class="dropdown-item">
+                    <a id="light" href="#">light</a>
+                </li>
+                <li class="dropdown-item">
+                    <a id="dark" href="#">dark</a>
+                </li>
+                <li class="dropdown-item">
+                    <a id="solar" href="#">solarize</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<header>
+    <img class="logo" src='<%= assetPath("images/logo.png") %>'/>
+</header>
+
+<section class="textbox">
+    <h1 class="pagetitle" id="pagetitle">thiévent</h1>
+    <p class="subtitle-2">web . software . apps</p>
+</section>
+
+<div class="info info-dark has-text">
+    <a href="#" class="info-button"> i </a>
+    <div class="info-text">
+        <ul>
+            <li>Technology: CSS & JS</li>
+            <li>Based on: <a href="https://bit.ly/2UlNnTb" target="_blank">https://bit.ly/2UlNnTb</a></li>
+        </ul>
+    </div>
+</div>
+
+<%= javascriptTag("2.js")%>

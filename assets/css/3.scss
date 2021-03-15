@@ -1,0 +1,45 @@
+body {
+  font-family: 'Oswald', 'Open Sans', 'Arial', sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #F36C57;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.textbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+}
+
+.pagetitle {
+  font-size: 9em;
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #FDD56B;
+  text-shadow: 10px 10px 0 #7D3021;
+  letter-spacing: 5px;
+  color: #FDD56B;
+}
+
+.subtitle-3 {
+  font-size: 1.875em;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #FDD56B;
+  text-shadow: 3px 3px 0 #7D3021;
+}
