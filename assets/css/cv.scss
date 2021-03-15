@@ -1,99 +1,103 @@
 @import url('https://fonts.cdnfonts.com/css/enigmatic');
 
-    body {
-        background-color: #000000;
-        color: #ffffff;
-        font-family: monospace;
-    }
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: monospace;
+}
 
-    h1, h2, h3, h4, h5, h6 {
-        font-family: 'Enigmatic', 'Open Sans', 'Arial', sans-serif;
-        padding: 0;
-    }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Enigmatic', 'Open Sans', 'Arial', sans-serif;
+  padding: 0;
+}
 
-    .spacer {
-        text-align: left;
-        width: 50%;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        border-top: 3px solid #ffffff;
+.spacer {
+  text-align: left;
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-top: 3px solid #ffffff;
 
-    }
+}
 
-    .profilephoto {
-        max-width: 350px;
-        max-height: 350px;
-    }
+.profilephoto {
+  max-width: 350px;
+  max-height: 350px;
+}
 
-    .cv-list {
-        list-style-type: none;
-    }
+.cv-list {
+  list-style-type: none;
+}
 
-    .spec-list {
-        list-style-type: none;
-        padding: 0;
-    }
+.cl-list {
+}
 
-    .cv-list-item, .cv-table-row {
-        font-size: 1.5em;
-    }
+.spec-list {
+  list-style-type: none;
+  padding: 0;
+}
 
-    .cv-list-image {
-        max-width: 45px;
-    }
+.cv-list-item, .cv-table-row {
+  font-size: 1.5em;
+}
 
-    .cv-list-bommel {
-        max-width: 75px;
-        margin-left: 10px;
-    }
+.cv-list-image {
+  max-width: 45px;
+}
 
-    .cv-list-item-text {
-        margin-left: 15px;
-    }
+.cv-list-bommel {
+  max-width: 75px;
+  margin-left: 10px;
+}
 
-    .readme, .cb {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+.cv-list-item-text {
+  margin-left: 15px;
+}
 
-    .cv-table {
-        border-collapse: separate;
-        border-spacing: 0 1em;
-    }
+.readme, .cb {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-    .cv-deployment-text {
-        width: 70%;
-        vertical-align: top;
-    }
+.cv-table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
 
-    .cv-deployment-year {
-        vertical-align: top;
-    }
+.cv-deployment-text {
+  width: 70%;
+  vertical-align: top;
+}
 
-    .cv-card {
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
+.cv-deployment-year {
+  vertical-align: top;
+  text-align: left;
+}
 
-    .cv-link, .cv-social-link {
-        color: #ffffff;
-        text-decoration: none;
-    }
+.cv-card {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
 
-    .cv-link:hover {
-        color: #ffffff;
-        border-bottom: #ffffff dashed 1px;
-    }
+.cv-link, .cv-social-link {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-    .cv-social-link:hover {
-        color: #ffffff;
-    }
+.cv-link:hover {
+  color: #ffffff;
+  border-bottom: #ffffff dashed 1px;
+}
 
-    .cv-social-list {
-        list-style-type: none;
-        padding: 0;
-    }
+.cv-social-link:hover {
+  color: #ffffff;
+}
 
-    .cv-social-list-item {
-        display: inline-block;
-    }
+.cv-social-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-social-list-item {
+  display: inline-block;
+}
