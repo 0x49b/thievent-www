@@ -3,7 +3,7 @@ module github.com/lichtwellenreiter/thievent_www
 go 1.16
 
 require (
-	github.com/gobuffalo/buffalo v0.16.21
+	github.com/gobuffalo/buffalo v0.17.2
 	github.com/gobuffalo/envy v1.9.0
 	github.com/gobuffalo/mw-csrf v1.0.0
 	github.com/gobuffalo/mw-forcessl v0.0.0-20200131175327-94b2bd771862
